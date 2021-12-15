@@ -1,4 +1,14 @@
 <template>
+
+    <!--
+        Author: April Bollinger
+        Date: 12/11/2021
+        Program: Vue Popular Shows (Card Component)
+     -->
+
+
+     <!-- Card Component -->
+
     <div class="Card" v-bind:img='poster_path' v-bind:imglink='imglink'>
         <img :src="imglink + img" >
         <h2  >{{title}}</h2>
@@ -7,6 +17,8 @@
 </template>
 
 <script>
+
+// Exporting all of the Card component info.
 export default {
     name: "Card",
     props: ['title', 'overview', 'imglink', 'img']
@@ -14,6 +26,7 @@ export default {
 </script>
 
 <style scoped>
+/* I couldn't get the bootstrap to import right. It kept wanting more dependencies. */
     .Card{
         display: inline-block;
         width: 30%;

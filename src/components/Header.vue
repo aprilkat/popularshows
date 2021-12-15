@@ -1,10 +1,20 @@
+
 <template>
+    <!--
+        Author: April Bollinger
+        Date: 12/11/2021
+        Program: Vue Popular Shows (Header Component)
+     -->
+
+
     <div class="Header">
         <h1>Vue Popular Shows</h1>
     </div>
 </template>
 
 <script>
+
+// Exporting the Header component info
 export default{
     name: "Header"
 }
