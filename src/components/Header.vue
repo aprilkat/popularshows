@@ -14,6 +14,8 @@ export default{
     .Header{
         background-color: darkolivegreen;
         color: white;
-        padding: 15px;
+        padding: 50px;
+        margin-bottom: 25px;
+        font-size: 35px;
     }
 </style>
